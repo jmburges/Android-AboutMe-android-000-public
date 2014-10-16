@@ -4,5 +4,35 @@
                   android:layout_height="match_parent"
                   android:gravity="center"
                   android:background="@android:color/holo_green_light">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joe Burgess"
+        android:textSize="20pt"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/joe_burgess"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height: 6' 2"
+        android:textSize="18pt"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Born: May 31"
+        android:textSize="18pt"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite Move: The Godfather"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_red_dark"/>
+
 
 </LinearLayout>
